@@ -10,7 +10,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(acess_token, acess_secret_token)
 api = tweepy.API(auth)
 
-carnaval = datetime.date(2022,2,26)
+carnaval = datetime.date(2022,2,25)
 hoje = datetime.date.today()
 
 diferenca = carnaval - hoje
